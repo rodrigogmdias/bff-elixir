@@ -1,0 +1,7 @@
+defmodule BffElixirWeb.PageController do
+  use BffElixirWeb, :controller
+
+  def index(conn, _params) do
+    render(conn, "index.html")
+  end
+end
